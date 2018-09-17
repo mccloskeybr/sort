@@ -1,7 +1,9 @@
 
 
-// find minimum and move it to correct spot
-
+/**
+ * each pass finds the current minimum and moves it
+ * to the current index
+ */
 void sort(int * arr, int n) {
     int i, j;
     for (i = 0; i < n; i++) {

@@ -1,4 +1,9 @@
 
+/**
+ * the worst, but easiest to implement, sort
+ * simply goes through and swaps any elements that are in
+ * incorrect order (n^2 complexity required even on best case).
+ */
 void sort(int * arr, int n) {
     int i, j;
     for (i = 0; i < n; i++) {
